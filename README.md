@@ -1,9 +1,7 @@
 # Tests.marvel_QA
 
 Un repositorio dedicado a las pruebas (manuales y automatizadas) realizadas en el sitio web oficial de Marvel.
-
 Este repositorio está dedicado a la planificación, ejecución y automatización de pruebas de Quality Assurance (QA) realizadas en el sitio web oficial de [Marvel](https://www.marvel.com).
-
 El objetivo principal es garantizar la calidad, estabilidad y usabilidad de las principales funcionalidades de la plataforma por medio de enfoques manuales y automatizados.
 
 ---
