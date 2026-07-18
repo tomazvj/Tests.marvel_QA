@@ -17,13 +17,13 @@ El objetivo principal es garantizar la calidad, estabilidad y usabilidad de las 
 
 ---
 
-## 📋 Algunos de los escenarios de Prueba Cubiertos
+## 📋 Escenarios de Prueba Cubiertos
 
-Las pruebas se enfocan en flujos críticos del usuario dentro del ecosistema de Marvel, incluyendo algunos como:
+La automatización cubre los siguientes **3 escenarios** críticos dentro del ecosistema de Marvel:
 
-1.  **Búsqueda de Personajes:** Validación del sistema de búsqueda de héroes y villanos (ej: Spider-Man, Iron Man).
-2.  **Búsqueda de Cómics (HQs):** Validación del sistema en la búsqueda de cómics de diversos personajes.
-3.  **Navegación y Responsividad:** Verificación de menús, pies de página y comportamiento del sitio en diferentes tamaños de pantalla.
+1.  **Busca personaje:** Validación del sistema de búsqueda principal para localizar héroes y villanos específicos.
+2.  **Visualizacion de detalle personaje:** Verificación de la carga correcta de la página de perfil del personaje, asegurando que se muestre su información, biografía y detalles relacionados.
+3.  **Consulta/listado de comics:** Comprobación del sistema de listado, carga y filtros al consultar los cómics disponibles en la plataforma.
 
 ---
 
@@ -37,13 +37,12 @@ Asegúrate de tener instalado en tu máquina:
 *   [Python 3.x](https://www.python.org/)
 *   [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
 *   Google Chrome (actualizado)
-*   SeleniumLibrary
 
 ---
 
 ### ⚙️ Instalación y Configuración
 
-1. **Extrae el archivo:** Descarga y descomprime el archivo `.zip` del proyecto en una carpeta de tu preferencia.
+1. **Extrae el archivo:** Descarga y descomprime el archivo `Marvel_qa.zip` que se encuentra en este repositorio en una carpeta de tu preferencia.
 2. **Abre en VS Code:** Abre VS Code, ve al menú superior en `File > Open Folder...` (Archivo > Abrir Carpeta) y selecciona la carpeta que acabas de descomprimir.
 3. **Instala las dependencias:** Abre la terminal integrada de VS Code (`Ctrl + '` o `Ctrl + Shift + '`) e instala Robot Framework y SeleniumLibrary ejecutando el comando:
    ```bash
