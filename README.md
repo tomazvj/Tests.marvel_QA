@@ -37,6 +37,7 @@ Asegúrate de tener instalado en tu máquina:
 *   [Python 3.x](https://www.python.org/)
 *   [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
 *   Google Chrome (actualizado)
+*   SeleniumLibrary
 
 ---
 
